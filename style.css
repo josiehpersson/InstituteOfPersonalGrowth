@@ -191,7 +191,16 @@ cursor: pointer;
 
 .social-btn:hover {
   cursor: pointer;
-  border-radius: 10px;
+  animation: socialanimation .5s  ease-in-out forwards;
+}
+
+@keyframes socialanimation {
+    from {
+        border-radius: 25px;
+    }
+    to {
+        border-radius: 10px;
+    }
 }
 .I-social-icons {
   color: white;

@@ -86,56 +86,89 @@ body {
   width: 80%;
   height: 1px;
   background-color: #a18f4e;
-  margin: 10px auto 10px auto;
+  margin: 20px auto 20px auto;
 }
 
 /*FLIP-CARD*/
 .start-flip-cards-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  height: 60vh;
 }
 .flip-card {
-    background-color: transparent;
-    width: 500px;
-    height: 350px;
-    perspective: 1000px;
-    margin: 10px;
-  }
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    -webkit-transition: 0.6s;
-    transition: transform 0.6s;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  .flip-card-front {
-    background: white;
-  }
+  background-color: transparent;
+  width: 30%;
+  height: 100%;
+  perspective: 1000px;
+  margin: 10px;
+}
 
-  .flip-card-back {
-    background-color: white;
-    color: black;
-    transform: rotateY(180deg);
-  }
+.flip-card:hover {
+cursor: pointer;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: 0.6s;
+  transition: transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background: white;
+}
 
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-card-img-1,
+.flip-card-img-2,
+.flip-card-img-3,
+.flip-card-img-4 {
+  height: 50%;
+  width: 100%;
+
+  background-position: left bottom;
+  object-fit: contain;
+}
+
+.flip-card-img-1 {
+  background: url(img/bild1.jpg);
+  background-size: 100%;
+}
+.flip-card-img-2 {
+  background: url(img/bild2.jpg);
+  background-size: 100%;
+}
+.flip-card-img-3 {
+  background: url(img/bild3.jpg);
+  background-size: 100%;
+}
+.flip-card-img-4 {
+  background: url(img/bild1.jpg);
+  background-size: 100%;
+}
 /*SOCIAL MEDIA KNAPPAR*/
 .start-social-icons-container {
   width: 100%;
@@ -163,4 +196,3 @@ body {
 .I-social-icons {
   color: white;
 }
-

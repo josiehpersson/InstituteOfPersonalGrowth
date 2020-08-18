@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR*/
+.I-logo {
+    height: 80px;
+}
+.I-navbar {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    box-shadow: 11px 14px 38px 3px rgba(0, 0, 0, 0.11);
+    padding-bottom: 20px;
+}
+
+.I-navbar-link-container {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.I-navbar-link-container .I-nav-link {
+    color: #A18F4E !important;
+}
+
+.I-navbar-link-container .I-nav-link:hover {
+    color: black !important;
+}
+
+/*START-PAGE-CONTAINER*/
+.start-page-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+/*CAROUSEL*/
+
+.I-carousel {
+    height: 500px;
+} 
+.I-carousel-caption-container {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+}
+
+/*INFORMATION CONTAINER 1 */
+.information-container-1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 50px;
+}
+
+.text-container-1 {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.headline {
+    color: #A18F4E;
+    font-size: 150%;
+}
+
+.img-container-1 {
+    width: 50%;
+}
+
+.man-exploring {
+    height: 100%;
+width: 100%;
+margin-top: 0;
+}
+
+/*LINJE DELNING*/
+
+.line {
+    width: 80%;
+    height: 1px;
+    background-color: #A18F4E;
+    margin: 10px auto 10px auto;
+
+}

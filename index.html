@@ -1,96 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Start</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light I-navbar">
-        <a class="navbar-brand I-logo" href="#"><img src="img/logo.png" class="I-logo" alt="Institute of personal growth logotype"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav I-navbar-link-container">
-            <li class="nav-item">
-              <a class="nav-link I-nav-link" href="#">CLASSES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link I-nav-link" href="#">WEBINAR</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link I-nav-link" href="#">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link I-nav-link" href="#">ABOUT</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!--STARTPAGE CONTAINER-->
+      <a class="navbar-brand I-logo" href="#"
+        ><img
+          src="img/logo.png"
+          class="I-logo"
+          alt="Institute of personal growth logotype"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav I-navbar-link-container">
+          <li class="nav-item">
+            <a class="nav-link I-nav-link" href="#">CLASSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link I-nav-link" href="#">WEBINAR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link I-nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link I-nav-link" href="#">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--STARTPAGE CONTAINER-->
     <div class="start-page-container">
-        <!--CAROUSEL-->
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/bild1.jpg" class="d-block I-carousel w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block I-carousel-caption-container">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/bild2.jpg" class="d-block I-carousel w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block I-carousel-caption-container">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/bild3.jpg" class="d-block I-carousel w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block I-carousel-caption-container">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>
+      <!--CAROUSEL-->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/bild1.jpg"
+              class="d-block I-carousel w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block I-carousel-caption-container"
+            >
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
-<!--TEXTCONTAINER1-->
-          <div class="information-container-1">
-              <div class="text-container-1">
-                  <p class="headline">RUBRIK</p>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nemo minus ut eius sapiente? Error esse non beatae, voluptatibus exercitationem mollitia commodi numquam repudiandae magnam iste in odit quaerat reiciendis?</p>
-                <p class="headline">RUBRIK</p>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nemo minus ut eius sapiente? Error esse non beatae, voluptatibus exercitationem mollitia commodi numquam repudiandae magnam iste in odit quaerat reiciendis?</p>
-              </div>
-              <div class="img-container-1">
-                  <img src="img/manexploringglobe.png" class="man-exploring" alt="man exploring globe" />
-              </div>
+          <div class="carousel-item">
+            <img
+              src="img/bild2.jpg"
+              class="d-block I-carousel w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block I-carousel-caption-container"
+            >
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <!--AVDELAR-LINJE-->
-            <div class="line"></div>
-    
-    <!--PAGE CONTAINER SLUTDIV NEDANFÖR-->
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/bild3.jpg"
+              class="d-block I-carousel w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block I-carousel-caption-container"
+            >
+              <h5>Third slide label</h5>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </div>
+          </div>
         </div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--TEXTCONTAINER1-->
+      <div class="information-container-1">
+        <div class="text-container-1">
+          <p class="headline">RUBRIK</p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+            nemo minus ut eius sapiente? Error esse non beatae, voluptatibus
+            exercitationem mollitia commodi numquam repudiandae magnam iste in
+            odit quaerat reiciendis?
+          </p>
+          <p class="headline">RUBRIK</p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+            nemo minus ut eius sapiente? Error esse non beatae, voluptatibus
+            exercitationem mollitia commodi numquam repudiandae magnam iste in
+            odit quaerat reiciendis?
+          </p>
+        </div>
+        <div class="img-container-1">
+          <img
+            src="img/manexploringglobe.png"
+            class="man-exploring"
+            alt="man exploring globe"
+          />
+        </div>
+      </div>
+      <!--AVDELAR-LINJE-->
+      <div class="line"></div>
+      <!--FLIP CARDS-->
+      <div class="start-flip-cards-container container">
+          <div class="row">
+              <div class="flip-card col-4">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <div class="flip-card-img"></div>
+                          <p class="headline">RUBRIK</p>
+                          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="flip-card-back">
+                        <p class="headline">RUBRIK</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit atque odit consectetur incidunt perspiciatis corrupti hic officia placeat saepe, natus molestiae illum id quas libero. Minus necessitatibus quasi nulla pariatur.</p>
+                      </div>
+                  </div>
+
+                </div>
+                <div class="flip-card col-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="flip-card-img"></div>   
+                            <p class="headline">RUBRIK</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="flip-card-back">
+                          <p class="headline">RUBRIK</p>
+                          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit atque odit consectetur incidunt perspiciatis corrupti hic officia placeat saepe, natus molestiae illum id quas libero. Minus necessitatibus quasi nulla pariatur.</p>
+                        </div>
+                    </div>
+  
+                  </div>
+          </div>
+      </div>
+
+      <!--CUSTOMERS REVIEW-->
+      <div class="start-customers-container"></div>
+      <!--AVDELAR LINJE-->
+      <div class="line"></div>
+
+      <!--SOCIAL MEDIA IKONER-->
+      <div class="start-social-icons-container">
+        <div class="social-btn">
+          <i class="fab fa-linkedin-in I-social-icons"></i>
+        </div>
+        <div class="social-btn">
+          <i class="fab fa-twitter I-social-icons"></i>
+        </div>
+        <div class="social-btn">
+          <i class="fab fa-instagram I-social-icons"></i>
+        </div>
+        <div class="social-btn">
+          <i class="fab fa-facebook I-social-icons"></i>
+        </div>
+      </div>
+      <!--PAGE CONTAINER SLUTDIV NEDANFÖR-->
+    </div>
+    <script
+      src="https://kit.fontawesome.com/786cd46951.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

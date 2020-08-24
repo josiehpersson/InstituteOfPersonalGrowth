@@ -1,0 +1,14 @@
+.page-img-container {
+    background: url('img/bild3.jpg');
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.start-social-icons-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 50px;
+  }

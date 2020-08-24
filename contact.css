@@ -1,0 +1,54 @@
+.page-img-container {
+    background: url('img/bild2.jpg');
+    background-size: 100%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.email-container {
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-at {
+    color: white;
+}
+
+.maps-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.googlemaps {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.googlemaps:hover {
+    cursor: pointer;
+    animation: maps-hover 0.5s ease-in-out forwards;
+}
+
+@keyframes maps-hover {
+    to {
+        transform: scale(1.1);
+    }
+  }
+
+.headline {
+    font-size: 125%;
+    color: #5a4200;
+  }
+  .start-social-icons-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 50px;
+  }

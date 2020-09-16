@@ -16,6 +16,8 @@ body {
   height: 80px;
 }
 .I-navbar {
+  position: fixed;
+  z-index: 10;
   background-color: white;
   width: 100%;
   display: flex;

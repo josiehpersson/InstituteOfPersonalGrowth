@@ -60,16 +60,28 @@
 
 .classes:hover {
   cursor: pointer;
-  animation: classes-container-animation 0.5s ease-in-out forwards;
-
+  
 }
-
+.classes-hover-in {
+  animation: classes-hover-in 0.5s ease-in-out forwards;
+}
  
-@keyframes classes-container-animation {
+@keyframes classes-hover-in {
     to {
         transform: scale(1.1);
     }
   }
+
+  .classes-hover-out {
+    animation: classes-hover-out 0.5s ease-in-out forwards;
+  }
+   
+  @keyframes classes-hover-out {
+      to {
+          transform: scale(1.0);
+      }
+    }
+
 .class-img-1,
 .class-img-2,
 .class-img-3 {
@@ -103,17 +115,8 @@
 .class-img-2:hover,
 .class-img-3:hover {
   cursor: pointer;
-  animation: classes-img-animation 0.5s ease-in-out forwards;
 }
 
-@keyframes classes-img-animation {
-  from {
-    border-radius: 100px;
-  }
-  to {
-    border-radius: 50px;
-  }
-}
 
 /*FRÅGOR*/
 .questions-container {
@@ -143,15 +146,30 @@
 
 .questions-icon:hover {
   cursor: pointer;
-  animation: question-animation 0.5s ease-in-out forwards;
 }
 
-@keyframes question-animation {
+.questions-icon-hover-in {
+  animation: question-hover-in 0.5s ease-in-out forwards;
+}
+
+@keyframes question-hover-in {
   from {
     border-radius: 50px;
   }
   to {
     border-radius: 10px;
+  }
+}
+.questions-icon-hover-out {
+  animation: question-hover-out 0.5s ease-in-out forwards;
+}
+
+@keyframes question-hover-out {
+  from {
+    border-radius: 10px;
+  }
+  to {
+    border-radius: 50px;
   }
 }
 

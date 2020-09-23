@@ -4,7 +4,19 @@
     background-position: left bottom;
     background-repeat: no-repeat;
 }
-
+    /*SVART BAKGRUND SIDRUBRIK */
+.headline-container {
+    height: 20%;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.46);
+    border-radius: 10px;
+    z-index: 1;
+    margin-bottom: 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .email-container {
     height: 50vh;
     display: flex;
@@ -52,3 +64,162 @@
     justify-content: space-evenly;
     padding: 50px;
   }
+
+  @media only screen and (max-width: 600px) and (orientation: portrait) {
+    .page-img-container {
+        margin-top: -30vh;
+    }
+    
+    .headline-container {
+        width: 50%;
+        height: 10%;
+    }
+
+    .page-headline {
+        font-size: 150%;
+    }
+
+    .email-container {
+        text-align: center;
+        margin: 2vh;
+    }
+
+    .maps-container {
+        flex-flow: column nowrap;
+        height: 50vh;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
+      .page-headline {
+          font-size: 150%;
+      }
+
+      .email-container {
+          text-align: center;
+          margin: 4vw;
+      }
+      .maps-container {
+          flex-flow: column nowrap;
+          height: 100vh;
+          text-align: center;
+      }
+}
+
+@media only screen and (min-width: 600px) and (orientation: portrait) {
+      .email-container {
+          height: 20vh;
+      }
+      .maps-container {
+          height: 50vh;
+      }
+}
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+      .page-headline {
+          font-size: 150%;
+      }
+      .email-container {
+          margin: 6vw;
+          text-align: center;
+      }
+
+      .maps-container {
+          flex-flow: column nowrap;
+          height: 100vh;
+          text-align: center;
+      }
+}
+
+@media only screen and (min-width:768px) and (orientation: portrait) {
+    .page-img-container {
+        margin-top: -30vh;
+    }
+    .headline-container {
+        height: 10%;
+    }
+    
+    .page-headline {
+        font-size: 300%;
+    }
+
+    .email-container {
+        margin: 4vw;
+        text-align: center;
+        font-size: 150%;
+    }
+
+}
+@media only screen and (min-width:768px) and (orientation: landscape) {
+    .page-img-container {
+        margin-top: -20vh;
+    }
+    .headline-container {
+        height: 10%;
+    }
+    
+    .page-headline {
+        font-size: 200%;
+    }
+
+    .email-container {
+        margin: 4vw;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .maps-container {
+        flex-flow: row nowrap;
+        height: 50vh;
+    }
+
+}
+
+@media only screen and (min-width:1024px) and (orientation: portrait) {
+    .page-img-container {
+        margin-top: -30vh;
+    }
+    .headline-container {
+        height: 10%;
+    }
+    
+    .page-headline {
+        font-size: 300%;
+    }
+
+    .email-container {
+        margin: 4vw;
+        text-align: center;
+        font-size: 150%;
+        height: 20vh;
+    }
+
+    .email-container {
+        height: 10vh;
+    }
+
+}
+@media only screen and (min-width:1024px) and (orientation: landscape) {
+    .page-img-container {
+        margin-top: -20vh;
+    }
+    .headline-container {
+        height: 10%;
+    }
+    
+    .page-headline {
+        font-size: 200%;
+    }
+
+    .email-container {
+        margin: 4vw;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .maps-container {
+        flex-flow: row nowrap;
+        height: 50vh;
+    }
+
+}

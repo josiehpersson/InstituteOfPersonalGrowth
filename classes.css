@@ -39,6 +39,7 @@
 /*CLASSES INFO*/
 
 .classes-container {
+  height: auto;
   box-sizing: content-box;
   display: flex;
   flex-flow: column nowrap;
@@ -178,65 +179,253 @@
   font-size: 200%;
 }
 
-@media only screen and (max-width: 600px) {
-.page-img-container {
-  height: 20vh;
-}
 
+@media only screen and (max-width:600px) and (orientation: portrait) {
+  body {
+    font-size: 75%;
+  }
+  .page-img-container {
+    height: 50vh;
+  }
+  /*SVART BAKGRUND SIDRUBRIK */
 .headline-container {
-  padding-top: 5px;
+  height: 10%;
+  width: 30%;
+  background: rgba(0, 0, 0, 0.46);
+  border-radius: 4px;
+  padding-top: 1vh;
+  z-index: 1;
+  margin-bottom: 10px;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-headline {
-  font-size: 100%;
+  font-size: 150%;
+  margin-top: 1vh;
 }
-
 .webinar-container {
+  height: auto;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
-.webinar-img{
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-  background-size: 200%;
-  align-self: center;
+.webinar-img {
+  width: 80vw;
+  height: 30vh;
+  margin: 2vh;
 }
-
 .text-container {
   width: 100%;
+  padding: 1vh;
+}
+.classes-container {
+  margin: 1vh;
+}
+.classes {
+  flex-flow: column nowrap;
+  height: auto;
+  margin: 2vh;
+}
+
+.class-info-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+}
+
+@media only screen and (max-width:600px) and (orientation: landscape) {
+  body {
+    font-size: 75%;
+  }
+  .page-img-container {
+    height: 100vh;
+  }
+  /*SVART BAKGRUND SIDRUBRIK */
+.headline-container {
+  height: 10%;
+  width: 20%;
+  background: rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+  z-index: 1;
+  margin-bottom: 10px;
+  margin-top: auto;
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-headline {
+  font-size: 150%;
+  margin-top: 1vh;
+}
+.webinar-container {
+  height: auto;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.webinar-img {
+  width: 80vw;
+  height: 50vh;
+  margin: 2vh;
+}
+.text-container {
+  width: 80%;
+  padding: 2vh;
 }
 
 .classes-container {
-  margin: 0px;
+  margin-top: 0vh;
+  margin: 1vh;
+  height: 250vh;
+}
 
+.classes-img-1, .classes-img-2, .classes-img-3 {
+height: 20vh;
+width: 80vw;
+}
+}
+
+@media only screen and (min-width:600px) and (orientation: landscape) {
+  .headline-container {
+    height: 10%;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.46);
+    border-radius: 10px;
+    z-index: 1;
+    margin-bottom: 10px;
+    margin-top: auto;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-headline {
+    font-size: 200%;
+    margin-top: 1vh;
+  }
+
+  .webinar-container {
+    flex-flow: column nowrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .webinar-img {
+    height: 30%;
+  }
+
+  .text-container {
+    width: 80%;
+    margin: 2vh;
+  }
+
+  .classes-container {
+    margin: 1vh;
+  }
+
+  .classes {
+    flex-flow: column nowrap;
+    height: auto;
+  }
+
+  .class-info-text {
+    width: 80%;
+    text-align: center;
+    margin-top: 3vh;
+  }
+}
+
+@media only screen and (min-width:768px) and (orientation: portrait) {
+  .headline-container {
+    height: 10%;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.46);
+    border-radius: 10px;
+    z-index: 1;
+    margin-bottom: 10px;
+    margin-top: auto;
+    padding-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-headline {
+    font-size: 200%;
+    margin-top: 1vh;
+  }
+
+  .webinar-container {
+    flex-flow: column nowrap;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .webinar-img {
+    height: 30%;
+  }
+
+  .text-container {
+    width: 80%;
+    margin: 2vw;
+  }
+
+  .classes-container {
+    margin: 1vh;
+  }
+
+  .classes {
+    flex-flow: column nowrap;
+    height: auto;
+  }
+
+  .class-info-text {
+    width: 80%;
+    text-align: center;
+    margin-top: 3vh;
+  }
+}
+
+@media only screen and (min-width:900px) and (orientation: portrait) {
+body {
+  font-size: 150%;
+}
+
+.headline-container {
+  height: 20%;
+}
+
+.page-headline {
+  font-size: 300%;
+}
+
+.webinar-container {
+  flex-flow: row nowrap;
+}
+
+.text-container {
+  width: 50%;
+  text-align: left;
+  padding-left: 2vw;
 }
 
 .classes {
-  height: 50vh;
-  flex-flow: column nowrap;
-  margin: 0px;
+  flex-flow: row nowrap;
 }
 
-.classes:last-of-type {
-  margin-bottom: 5vh;
-}
-
-.class-img-1, 
-.class-img-2,
-.class-img-3 {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  margin: 0;
-} 
-.class-info-text {
-  width: 100%;
-  height: 40%;
-  text-align: center;
-}
-
-.questions-container {
-  flex-flow: column nowrap;
-  padding-bottom: 5vh;
+.classes-info-text {
+  width: 40%;
+  margin: 4vw;
+  text-align: left;
 }
 }

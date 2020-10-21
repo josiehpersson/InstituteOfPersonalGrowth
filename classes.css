@@ -1,10 +1,4 @@
-.page-img-container {
-    background: url('img/bild1.jpg');
-    background-size: 100%;
-    height: 500px;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-}
+
 /*WEBINAR INFO*/
 
 .webinar-container {
@@ -181,31 +175,6 @@
 
 
 @media only screen and (max-width:600px) and (orientation: portrait) {
-  body {
-    font-size: 75%;
-  }
-  .page-img-container {
-    height: 50vh;
-  }
-  /*SVART BAKGRUND SIDRUBRIK */
-.headline-container {
-  height: 10%;
-  width: 30%;
-  background: rgba(0, 0, 0, 0.46);
-  border-radius: 4px;
-  padding-top: 1vh;
-  z-index: 1;
-  margin-bottom: 10px;
-  margin-top: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 .webinar-container {
   height: auto;
   flex-flow: column nowrap;
@@ -239,31 +208,6 @@
 }
 
 @media only screen and (max-width:600px) and (orientation: landscape) {
-  body {
-    font-size: 75%;
-  }
-  .page-img-container {
-    height: 100vh;
-  }
-  /*SVART BAKGRUND SIDRUBRIK */
-.headline-container {
-  height: 10%;
-  width: 20%;
-  background: rgba(0, 0, 0, 0.46);
-  border-radius: 10px;
-  z-index: 1;
-  margin-bottom: 10px;
-  margin-top: auto;
-  padding-top: 2vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 .webinar-container {
   height: auto;
   flex-flow: column nowrap;
@@ -293,25 +237,7 @@ width: 80vw;
 }
 
 @media only screen and (min-width:600px) and (orientation: landscape) {
-  .headline-container {
-    height: 10%;
-    width: 30%;
-    background: rgba(0, 0, 0, 0.46);
-    border-radius: 10px;
-    z-index: 1;
-    margin-bottom: 10px;
-    margin-top: auto;
-    padding-top: 2vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .page-headline {
-    font-size: 200%;
-    margin-top: 1vh;
-  }
-
+  
   .webinar-container {
     flex-flow: column nowrap;
     height: 100vh;
@@ -345,25 +271,7 @@ width: 80vw;
 }
 
 @media only screen and (min-width:768px) and (orientation: portrait) {
-  .headline-container {
-    height: 10%;
-    width: 30%;
-    background: rgba(0, 0, 0, 0.46);
-    border-radius: 10px;
-    z-index: 1;
-    margin-bottom: 10px;
-    margin-top: auto;
-    padding-top: 0vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .page-headline {
-    font-size: 200%;
-    margin-top: 1vh;
-  }
-
+  
   .webinar-container {
     flex-flow: column nowrap;
     height: 40vh;
@@ -397,17 +305,6 @@ width: 80vw;
 }
 
 @media only screen and (min-width:900px) and (orientation: portrait) {
-body {
-  font-size: 150%;
-}
-
-.headline-container {
-  height: 20%;
-}
-
-.page-headline {
-  font-size: 300%;
-}
 
 .webinar-container {
   flex-flow: row nowrap;
@@ -431,17 +328,6 @@ body {
 }
 
 @media only screen and (min-width:900px) and (orientation: portrait) {
-  body {
-    font-size: 150%;
-  }
-  
-  .headline-container {
-    height: 20%;
-  }
-  
-  .page-headline {
-    font-size: 300%;
-  }
   
   .webinar-container {
     flex-flow: row nowrap;
@@ -466,12 +352,7 @@ body {
   }
 
   @media only screen and (min-width:1024px) {
-    .headline-container {
-      height: 20%;
-    }
-    .page-headline {
-      font-size: 400%;
-    }
+    
 
     .webinar-container {
       flex-flow: row nowrap;

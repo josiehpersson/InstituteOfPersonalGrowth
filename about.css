@@ -1,9 +1,4 @@
-.page-img-container {
-    background: url('img/bild3.jpg');
-    background-size: 100%;
-    background-position: left top;
-    background-repeat: no-repeat;
-}
+
 .about-suzy-container {
     display: flex;
     flex-flow: row nowrap;
@@ -47,27 +42,10 @@
   }
 
   @media only screen and (max-width:600px) and (orientation: portrait) {
-    body {
-        font-size: 75%;
-      }
-      .page-img-container {
-        height: 50vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 10%;
-        width: 30%;
-        margin-top: 20vh;
-      }
-      .page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: column-reverse;
-    height: 60vh;
+    height: 100vh;
     margin: 0px;
 }
 .suzy-text {
@@ -82,23 +60,6 @@
 }
 
 @media only screen and (max-width:600px) and (orientation: landscape) {
-    body {
-        font-size: 75%;
-      }
-      .page-img-container {
-        height: 90vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 15%;
-        width: 20%;
-        margin-top: 70vh;
-      }
-      .page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: column-reverse;
@@ -117,23 +78,6 @@
 }
 
 @media only screen and (min-width:600px) and (orientation: portrait) {
-    body {
-        font-size: 75%;
-      }
-      .page-img-container {
-        height: 50vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 10%;
-        width: 30%;
-        margin-top: 20vh;
-      }
-      .page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: column-reverse;
@@ -152,23 +96,6 @@
 }
 
 @media only screen and (min-width:600px) and (orientation: landscape) {
-    body {
-        font-size: 75%;
-      }
-      .page-img-container {
-        height: 100vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 10%;
-        width: 15%;
-        margin-top: 85vh;
-      }
-      .page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: column-reverse;
@@ -187,23 +114,6 @@
 }
 
 @media only screen and (min-width:768px) and (orientation: portrait) {
-    body {
-        font-size: 75%;
-      }
-      .page-img-container {
-        height: 50vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 10%;
-        width: 15%;
-        margin-top: 25vh;
-      }
-      .page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: column-reverse;
@@ -222,23 +132,7 @@
 }
 
 @media only screen and (min-width:768px) and (orientation: landscape) {
-    body {
-        font-size: 75%;
-      }
-      .page-img-container {
-        height: 100vh;
-        margin: 0px;
-      }
 
-      .headline-container {
-        height: 10%;
-        width: 15%;
-        margin-top: 80vh;
-      }
-      .page-headline {
-  font-size: 150%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: column-reverse;
@@ -256,23 +150,6 @@
 }
 }
 @media only screen and (min-width:900px) and (orientation: portrait) {
-    body {
-        font-size: 120%;
-      }
-      .page-img-container {
-        height: 50vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 20%;
-        width: 30%;
-        margin-top: 40vh;
-      }
-      .page-headline {
-  font-size: 400%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: row nowrap;
@@ -290,23 +167,6 @@
 }
 }
 @media only screen and (min-width:900px) and (orientation: landscape) {
-    body {
-        font-size: 120%;
-      }
-      .page-img-container {
-        height: 90vh;
-        margin: 0px;
-      }
-
-      .headline-container {
-        height: 20%;
-        width: 30%;
-        margin-top: 65vh;
-      }
-      .page-headline {
-  font-size: 400%;
-  margin-top: 1vh;
-}
 
 .about-suzy-container {
     flex-flow: row nowrap;

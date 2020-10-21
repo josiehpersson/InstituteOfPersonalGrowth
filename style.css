@@ -11,6 +11,17 @@ body {
   justify-content: space-evenly;
 }
 
+.page-img-container {
+  background: url('img/bild1.jpg');
+  background-size: 100%;
+  height: 500px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 /*NAVBAR*/
 .I-logo {
   height: 80px;
@@ -125,25 +136,386 @@ body {
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
-  .I-logo {
-    height: 10vh;
-  }
-  .navbar-collapse {
-    position: absolute;
-    top: 10vh;
-    left: auto;
-    right: 0px;
-    background-color: white;
-    padding: 2vh;
-    height: 100vh;
-    width: 40vw;
-  }
-  .I-navbar-link-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-  }
+
+@media only screen and (max-width:600px) and (orientation: portrait) {
+  body {
+      font-size: 75%;
+    }
+    .I-logo {
+      height: 10vh;
+    }
+    .navbar-collapse {
+      position: absolute;
+      top: 12vh;
+      left: auto;
+      right: 0px;
+      background-color: white;
+      padding: 2vh;
+      height: 100vh;
+      width: 40vw;
+    }
+    .I-navbar-link-container {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+    }
+    .page-img-container {
+      height: 50vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 10%;
+      width: 30%;
+    }
+    .page-headline {
+font-size: 150%;
+margin-top: 1vh;
 }
+}
+
+@media only screen and (max-width:600px) and (orientation: landscape) {
+  body {
+      font-size: 75%;
+    }
+    .I-logo {
+      height: 10vh;
+    }
+    .navbar-collapse {
+      position: absolute;
+      top: 15vh;
+      left: auto;
+      right: 0px;
+      background-color: white;
+      padding: 2vh;
+      height: 100vh;
+      width: 40vw;
+    }
+    .I-navbar-link-container {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+    }
+    .page-img-container {
+      height: 100vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 15%;
+      width: 20%;
+      margin-top: 70vh;
+    }
+    .page-headline {
+font-size: 150%;
+margin-top: 1vh;
+}
+}
+@media only screen and (min-width:600px) and (orientation: portrait) {
+  body {
+      font-size: 75%;
+    }
+    .I-logo {
+      height: 10vh;
+    }
+    .navbar-collapse {
+      position: absolute;
+      top: 12vh;
+      left: auto;
+      right: 0px;
+      background-color: white;
+      padding: 2vh;
+      height: 100vh;
+      width: 40vw;
+    }
+    .I-navbar-link-container {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+    }
+    .page-img-container {
+      height: 50vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 10%;
+      width: 30%;
+      margin-top: 20vh;
+    }
+    .page-headline {
+font-size: 150%;
+margin-top: 1vh;
+}
+}
+
+@media only screen and (min-width:600px) and (orientation: landscape) {
+
+body {
+  font-size: 100%;
+}
+.I-logo {
+  height: 10vh;
+}
+.navbar-collapse {
+  position: absolute;
+  top: 15vh;
+  left: auto;
+  right: 0px;
+  background-color: white;
+  padding: 2vh;
+  height: 100vh;
+  width: 40vw;
+}
+.I-navbar-link-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.page-img-container {
+  height: 100vh;
+  margin: 0px;
+}
+
+.headline-container {
+  height: 10%;
+  width: 15%;
+}
+.page-headline {
+font-size: 150%;
+margin-top: 1vh;
+}
+}
+@media only screen and (min-width:768px) and (orientation: portrait) {
+  body {
+      font-size: 100%;
+    }
+    /*NAVBAR*/
+.I-logo {
+  height: 80px;
+}
+.I-navbar {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  box-shadow: 11px 14px 38px 3px rgba(0, 0, 0, 0.11);
+  padding-bottom: 20px;
+}
+
+.I-navbar-link-container {
+  margin-right: 0;
+  margin-left: auto;
+}
+.navbar-collapse {
+  height: 10vh;
+  width: 800px;
+  top: 0px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.I-navbar-link-container .I-nav-link {
+  color: #a18f4e !important;
+}
+
+.I-navbar-link-container .I-nav-link:hover {
+  color: black !important;
+}
+
+    .page-img-container {
+      height: 50vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 10%;
+      width: 15%;
+      margin-bottom: -20vh;
+    }
+    .page-headline {
+font-size: 150%;
+margin-top: 1vh;
+}
+}
+
+@media only screen and (min-width:768px) and (orientation: landscape) {
+  body {
+      font-size: 100%;
+    }
+    /*NAVBAR*/
+.I-logo {
+  height: 80px;
+}
+.I-navbar {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  box-shadow: 11px 14px 38px 3px rgba(0, 0, 0, 0.11);
+  padding-bottom: 20px;
+}
+
+.I-navbar-link-container {
+  margin-right: 0;
+  margin-left: auto;
+}
+.navbar-collapse {
+  height: 10vh;
+  width: 800px;
+  top: 0px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.I-navbar-link-container .I-nav-link {
+  color: #a18f4e !important;
+}
+
+.I-navbar-link-container .I-nav-link:hover {
+  color: black !important;
+}
+
+    .page-img-container {
+      height: 100vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 15%;
+      width: 15%;
+    }
+    .page-headline {
+font-size: 150%;
+margin-top: 1vh;
+}
+}
+
+@media only screen and (min-width:900px) and (orientation: portrait) {
+  body {
+      font-size: 120%;
+    }
+    /*NAVBAR*/
+.I-logo {
+  height: 80px;
+}
+.I-navbar {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  box-shadow: 11px 14px 38px 3px rgba(0, 0, 0, 0.11);
+  padding-bottom: 20px;
+  height: 10vh;
+}
+.navbar-collapse {
+  height: 10vh;
+  width: 800px;
+  top: 0px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+.I-navbar-link-container {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.I-navbar-link-container .I-nav-link {
+  color: #a18f4e !important;
+}
+
+.I-navbar-link-container .I-nav-link:hover {
+  color: black !important;
+}
+
+    .page-img-container {
+      height: 50vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 15%;
+      width: 30%;
+    }
+    .page-headline {
+font-size: 400%;
+margin-top: 1vh;
+}
+}
+
+@media only screen and (min-width:900px) and (orientation: landscape) {
+  body {
+      font-size: 120%;
+    }
+    /*NAVBAR*/
+.I-logo {
+  height: 80px;
+}
+.I-navbar {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  box-shadow: 11px 14px 38px 3px rgba(0, 0, 0, 0.11);
+  padding-bottom: 20px;
+  height: 10vh;
+}
+.navbar-collapse {
+  height: 10vh;
+  width: 800px;
+  top: 0px;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+.I-navbar-link-container {
+  margin-right: 0;
+  margin-left: auto;
+  height: 100px;
+}
+
+.I-navbar-link-container .I-nav-link {
+  color: #a18f4e !important;
+}
+
+.I-navbar-link-container .I-nav-link:hover {
+  color: black !important;
+}
+
+    .page-img-container {
+      height: 90vh;
+      margin: 0px;
+    }
+
+    .headline-container {
+      height: 20%;
+      width: 30%;
+
+    }
+    .page-headline {
+font-size: 400%;
+margin-top: 1vh;
+}
+}
+
+

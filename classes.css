@@ -423,9 +423,83 @@ body {
   flex-flow: row nowrap;
 }
 
-.classes-info-text {
+.class-info-text {
   width: 40%;
   margin: 4vw;
   text-align: left;
 }
 }
+
+@media only screen and (min-width:900px) and (orientation: portrait) {
+  body {
+    font-size: 150%;
+  }
+  
+  .headline-container {
+    height: 20%;
+  }
+  
+  .page-headline {
+    font-size: 300%;
+  }
+  
+  .webinar-container {
+    flex-flow: row nowrap;
+  }
+  
+  .text-container {
+    width: 50%;
+    text-align: left;
+    padding-left: 2vw;
+  }
+  
+  .classes {
+    flex-flow: row nowrap;
+  }
+  
+  .class-info-text {
+    width: 40%;
+    margin: 4vw;
+    padding: 10px;
+    text-align: left;
+  }
+  }
+
+  @media only screen and (min-width:1024px) {
+    .headline-container {
+      height: 20%;
+    }
+    .page-headline {
+      font-size: 400%;
+    }
+
+    .webinar-container {
+      flex-flow: row nowrap;
+      justify-content: space-evenly;
+      padding: 40px 10px 40px 10px;
+      height: 50vh;
+    }
+    .webinar-img {
+      height: 70%;
+      width: 40%;
+    }
+
+    .text-container {
+      width: 40%;
+    }
+    .divider {
+      margin: 0px;
+    }
+
+    .classes-container {
+      flex-flow: column nowrap;
+    }
+    .classes {
+      flex-flow: row nowrap;
+    }
+
+    .class-info-text {
+      text-align: left;
+      width: 40%;
+    }
+  }

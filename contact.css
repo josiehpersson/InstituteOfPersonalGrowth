@@ -200,15 +200,12 @@
 
 }
 @media only screen and (min-width:1024px) and (orientation: landscape) {
-    .page-img-container {
-        margin-top: -20vh;
-    }
     .headline-container {
-        height: 10%;
+        height: 20%;
     }
     
     .page-headline {
-        font-size: 200%;
+        font-size: 400%;
     }
 
     .email-container {
@@ -222,4 +219,26 @@
         height: 50vh;
     }
 
+    .e-mail-btn {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+
+    .fa-at {
+        font-size: 400%;
+    }
+
+    .googlemaps-container {
+        height: 80%;
+        width: 40%;
+    }
+    .googlemaps {
+        height: 100%;
+        width: 100%;
+    }
+
+    .maps-text-container {
+        font-size: 150%;
+    }
 }
